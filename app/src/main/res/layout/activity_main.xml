@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.single.three360panorama.MainActivity">
+
+
+    <Button
+        android:id="@+id/openGL"
+        android:onClick="onClick"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="调用原生 OpenGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/google_vr"
+        android:onClick="onClick"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="谷歌官方为移动平台下VR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/tree_web"
+        android:onClick="onClick"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="tree通过webView进行交互"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
